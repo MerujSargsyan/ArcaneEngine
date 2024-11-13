@@ -1,0 +1,32 @@
+* {
+    border-radius: 10px; 
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+#text_container {
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+#log {
+    height: 50vh;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 2%;
+    border: 2px solid black;
+}
+
+#player_input {
+    border: 3px solid black;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1%;
+}
