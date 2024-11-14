@@ -8,6 +8,10 @@ html, body {
     min-height: 100vh;
 }
 
+input,select {
+    padding-left: 10px;
+}
+
 div {
     border: 2px solid black;
     padding: 1vh;
@@ -23,12 +27,38 @@ div {
 
 #input_data {
     width: 80%;
+    text-align: center;
 }
 
 #input_section > *{
     margin: 1vh;
+    width: 30vh;
 }
 
 #stat_sheet {
+    text-align: center;
     width: 20%;
+}
+
+#dice_rolling {
+    height: 13rem;
+}
+
+#dice_rolling > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#dice_container > div {
+    padding: 30px;
+}
+
+#sum_dice {
+    flex-basis: 100%;
+}
+
+#stat_inputs > div {
+    padding: 25px;
 }
