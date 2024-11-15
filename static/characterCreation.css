@@ -39,8 +39,15 @@ div {
     width: 20%;
 }
 
-#dice_rolling {
-    height: 13rem;
+#roll_space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#roll_space > div {
+    position: relative;
+    transform: translate(50%, 0%);
 }
 
 #dice_rolling > div {
@@ -54,8 +61,11 @@ div {
     padding: 30px;
 }
 
-#sum_dice {
-    flex-basis: 100%;
+button {
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 40%;
 }
 
 #stat_inputs > div {
