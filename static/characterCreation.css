@@ -39,17 +39,6 @@ div {
     width: 20%;
 }
 
-#roll_space{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#roll_space > div {
-    position: relative;
-    transform: translate(50%, 0%);
-}
-
 #dice_rolling > div {
     display: flex;
     flex-wrap: wrap;
@@ -57,8 +46,19 @@ div {
     justify-content: space-between;
 }
 
+#dice_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
 #dice_container > div {
-    padding: 30px;
+    aspect-ratio: 1;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
 }
 
 button {
